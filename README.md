@@ -24,6 +24,12 @@ Destinatário: M3-Devs
 - Formularios para reportar problemas
 - Interface agradavel
 
+## Requisitos de intalação
+
+- Node.js
+- Compilador de Scss
+- Gerenciador de pacotes (npm/yarn).
+
 ## Passos para Instalação e Execução
 
 ```bash
