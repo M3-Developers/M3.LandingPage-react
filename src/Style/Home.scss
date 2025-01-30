@@ -1,0 +1,10 @@
+@use "../Variables.scss" as *;
+
+body {
+    background-color: $main-Background;
+}
+
+.HomeContainer {
+    display: flex;
+    height: 100vh;
+}

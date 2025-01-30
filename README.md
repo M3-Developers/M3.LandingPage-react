@@ -1,6 +1,6 @@
 # Landpage - M3
 
-Status do projeto: <span style="color: rgb(255, 230, 0)">Em desenvolvimrnto</span>
+Status do projeto: <span style="color: rgb(255, 230, 0)">Em desenvolvimento</span>
 
 ## Descrição
 
