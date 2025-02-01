@@ -1,24 +1,32 @@
 @use "../../Variables.scss" as *;
 
-.HeaderContainer {
+.Header_Container {
     background-color: $Header-Background;
-    height: 7%;
-    width: 100%;
+    height: 7.5%;
+    width: auto;
     padding: 13px 20px;
     display: flex;
     align-items: center;
-    gap: 42%;
+    justify-content: center;
+
+    position: relative;
+    z-index: 5;
 
     img {
-        height: 95%;
+        height: 73.7%;
         width: auto;
-        object-fit: contain;
+        margin: 13px 20px;
+        object-fit: contain;    
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
     }
-
+    
     nav {
         display: flex;
         width: auto;
-        gap: 10px;
+        gap: 1.5vw;
         font-weight: bold;
         a {
             text-decoration: none;

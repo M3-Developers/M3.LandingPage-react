@@ -1,0 +1,22 @@
+@use "../../Variables.scss" as *;
+
+.Hero_Container {
+
+    width: auto;
+    padding: 2.5vw;
+    display: flex;
+    border-radius: 40px;
+    gap: 2vw;
+    
+    img {
+        width: 16.2vw;
+        height: auto;
+        border: solid 2px #37EEAC;
+        border-radius: 30px;
+    }
+
+    .Description_Container {
+        margin-top: 20px;
+
+    }
+}

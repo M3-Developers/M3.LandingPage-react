@@ -3,8 +3,8 @@ import { Logo } from "../../assets/index";
 
 export default function Header() {
   return (
-    <header className="HeaderContainer">
-      <img src={Logo} alt="" />
+    <header className="Header_Container">
+      <img src={Logo} alt="Logo M3" />
       <nav>
         <a href="">Home</a>
         <a href="">Projetos</a>

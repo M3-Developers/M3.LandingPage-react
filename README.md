@@ -54,7 +54,7 @@ src/
 ├── assets/           # Imagens, ícones e arquivos estáticos
 ├── components/       # Componentes reutilizáveis
 ├── pages/            # Páginas da aplicação
-├── styles/           # Arquivos de estilo (CSS ou pré-processadores)
+└── styles/           # Arquivos de estilo (CSS ou pré-processadores)
 ```
 
 ## Deploy

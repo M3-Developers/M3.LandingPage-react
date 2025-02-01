@@ -4,7 +4,14 @@ body {
     background-color: $main-Background;
 }
 
-.HomeContainer {
+.Home_Container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
+    max-width: 100%;
+
+    .Home_Content {
+        padding: 61px 64px;
+    }
 }
+
