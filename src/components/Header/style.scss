@@ -2,7 +2,7 @@
 
 .Header_Container {
     background-color: $Header-Background;
-    height: 7.5%;
+    height: 7vh !important;
     width: auto;
     padding: 13px 20px;
     display: flex;
@@ -13,7 +13,7 @@
     z-index: 5;
 
     img {
-        height: 73.7%;
+        height: 73%;
         width: auto;
         margin: 13px 20px;
         object-fit: contain;    
