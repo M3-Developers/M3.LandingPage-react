@@ -17,6 +17,17 @@
 
     .Description_Container {
         margin-top: 20px;
-
+        
+        h2 {
+            font-size: clamp(1.5rem, 2vw, 1.8rem);
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: clamp(0.8rem, 1vw, 1rem);
+            line-height: 1;
+            margin-bottom: 10px;
+        }
     }
 }

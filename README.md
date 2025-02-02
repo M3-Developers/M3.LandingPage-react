@@ -82,4 +82,4 @@ Este projeto foi desenvolvido com o apoio de:
 
 [Lucas Machado](https://github.com/Dev-Machado05) - Designer / Dev. Frontend <br/>
 [Marcos Vinicius]() - UX/UI Reviewer<br/> 
-[Marcelo Afonso]() - Quality Assurance (QA)
+[Marcelo Afonso](https://github.com/MarceloAfonso-dev) - Quality Assurance (QA)

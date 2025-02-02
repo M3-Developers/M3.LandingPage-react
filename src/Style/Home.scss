@@ -7,11 +7,26 @@ body {
 .Home_Container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     max-width: 100%;
 
     .Home_Content {
-        padding: 61px 64px;
+        padding: 7vh 3.2vw;
+
+        a {
+            text-decoration: none;
+        }
+
+        .Email_Container, .Youtube_Container {
+            display: flex;
+            align-items: center;
+            height: auto;
+            gap: 0.7vw;
+
+            img {
+                width: 2vw;
+                height: auto;
+            }
+        }
     }
 }
-
