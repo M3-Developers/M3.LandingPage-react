@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Landpage - M3
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Status do projeto: <span style="color: rgb(255, 230, 0)">Em desenvolvimento</span>
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+Este projeto foi desenvolvido para atender a necessidade de divulgação, por meio de uma landpage, do grupo M3 Devs, de seus membros e de seus projetos. <br/>
+Esta landpage tem como o seu objetivo facilitar o acesso e a divulgação dos projetos desenvolvidos pelos membros do grupo e pelo grupo em sí.
 
-### `npm start`
+Destinatário: M3-Devs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Link para a landpage:  -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias utilizadas
 
-### `npm test`
+- React 18
+- Scss
+- React Router
+- Firebase (inicialmente)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `npm run build`
+- Design Responsivo
+- Formularios para reportar problemas
+- Interface agradavel
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos de intalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- Compilador de Scss
+- Gerenciador de pacotes (npm/yarn).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Passos para Instalação e Execução
 
-### `npm run eject`
+```bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Clone este repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto
+cd nome-do-projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Inicie a aplicação
+npm start
+```
 
-## Learn More
+## Estrutura das pastas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```plaintext
+src/
+├── assets/           # Imagens, ícones e arquivos estáticos
+├── components/       # Componentes reutilizáveis
+├── pages/            # Páginas da aplicação
+└── styles/           # Arquivos de estilo (CSS ou pré-processadores)
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deploy
 
-### Code Splitting
+Inicialmente a landpage será hospedada no site Netlify, porém futuramente poderá ser movida para outra plataforma
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribuição
 
-### Analyzing the Bundle Size
+Você pode contribuir das seguintes maneiras:
+- **Reportando Bugs:** utilize este [formulário]() ou nos notifique pelo email **devs.m3group@gmail.com**, todos os erros reportados serão avaliados e priorizados em proximas atualizações;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Propondo melhorias** sugira melhorias através do email citado acima;
 
-### Making a Progressive Web App
+- **Compartilhando a sua experiência:** Nos informe como foi a sua experiência através deste [formulário](), a sua opinião é de suma inportância para nós
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Maneiras de contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Email:** devs.m3group@gmail.com;
+- **Github:** https://github.com/M3-Developers
 
-### Deployment
+## Colaboradores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Este projeto foi desenvolvido com o apoio de:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Lucas Machado](https://github.com/Dev-Machado05) - Designer / Dev. Frontend <br/>
+[Marcos Vinicius](https://github.com/MarcosAmorim-dev) - UX/UI Reviewer<br/> 
+[Marcelo Afonso](https://github.com/MarceloAfonso-dev) - Quality Assurance (QA)

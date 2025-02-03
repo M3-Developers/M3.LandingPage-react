@@ -1,0 +1,20 @@
+@use "./Variables.scss" as *;
+
+.Orange_Color {
+    color: $DarkFont-Color;
+}
+
+.LightLink_Font {
+    text-decoration: none;
+    font-weight: 500;
+    color: $LightAnchor-Color;
+}
+
+.BlueTitle_Color {
+    color: $BlueTitle-Color;
+}
+
+.Default_Background {
+    background-Color: $Default_Background;
+}
+
