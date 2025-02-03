@@ -81,5 +81,5 @@ Você pode contribuir das seguintes maneiras:
 Este projeto foi desenvolvido com o apoio de:
 
 [Lucas Machado](https://github.com/Dev-Machado05) - Designer / Dev. Frontend <br/>
-[Marcos Vinicius]() - UX/UI Reviewer<br/> 
+[Marcos Vinicius](https://github.com/MarcosAmorim-dev) - UX/UI Reviewer<br/> 
 [Marcelo Afonso](https://github.com/MarceloAfonso-dev) - Quality Assurance (QA)
