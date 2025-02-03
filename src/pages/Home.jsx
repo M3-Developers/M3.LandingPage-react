@@ -10,15 +10,21 @@ export default function Home() {
       <Header />
       <main className="Home_Content">
         <Hero />
-        <h2 className="BlueTitle_Color">Contato</h2>
-        <section className="Email_Container">
-          <img src={Email_Icon} alt="Icone do Email" />
-          <p className="LightLink_Font">devs.m3group@gmail.com</p>
+        <section className="Contacts_Container">
+          <h2 className="BlueTitle_Color">Contato</h2>
+          <section className="Email_Container">
+            <img src={Email_Icon} alt="Icone do Email" />
+            <p className="LightLink_Font">devs.m3group@gmail.com</p>
+          </section>
+          <a
+            href="https://www.youtube.com/@M3Devs"
+            className="Youtube_Container"
+          >
+            <img src={Yt_Icon} alt="Icone do Youtube" />
+            <p className="LightLink_Font">M3 Devs</p>
+          </a>
         </section>
-        <a href="https://www.youtube.com/@M3Devs" className="Youtube_Container">
-          <img src={Yt_Icon} alt="Icone do Youtube" />
-          <p className="LightLink_Font">M3 Devs</p>
-        </a>
+        
       </main>
     </div>
   );

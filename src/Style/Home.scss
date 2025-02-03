@@ -1,6 +1,9 @@
 @use "../Variables.scss" as *;
 
 body {
+    background: url(../assets/images/Teste.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: $main-Background;
 }
 
@@ -13,20 +16,37 @@ body {
     .Home_Content {
         padding: 7vh 3.2vw;
 
-        a {
-            text-decoration: none;
-        }
-
-        .Email_Container, .Youtube_Container {
-            display: flex;
-            align-items: center;
-            height: auto;
-            gap: 0.7vw;
-
-            img {
-                width: 2vw;
+        .Contacts_Container {
+            background-color: $White;
+            border: solid $Black 1px;
+            max-width: 25%;
+            margin: 5vh 0;
+            padding: 28px 31px;    
+            border-radius: 30px;
+         
+            h2 {
+                font-size: clamp(1.5rem, 2vw, 1.8rem);
+                line-height: 1.5;
+                margin: 0 0 2vh 0;
+            }
+            
+            a {
+                text-decoration: none;
+                width: fit-content;
+            }
+            
+            .Email_Container, .Youtube_Container {
+                display: flex;
+                align-items: center;
                 height: auto;
+                gap: 0.7vw;
+                
+                img {
+                    width: 2vw;
+                    height: auto;
+                }
             }
         }
     }
 }
+
