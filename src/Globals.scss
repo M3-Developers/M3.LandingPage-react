@@ -4,6 +4,12 @@
     color: $DarkFont-Color;
 }
 
+.DarkLink_Font {
+    text-decoration: none;
+    font-weight: 500;
+    color: $DarkAnchor-Color;
+}
+
 .LightLink_Font {
     text-decoration: none;
     font-weight: 500;
@@ -18,3 +24,9 @@
     background-Color: $Default_Background;
 }
 
+.MemberTitle_Color {
+    color: $MemberTitle-Color;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}

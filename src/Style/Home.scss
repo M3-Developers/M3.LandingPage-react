@@ -47,6 +47,18 @@ body {
                 }
             }
         }
+
+        .Members_Title{
+            font-size: clamp(2.3rem, 2vw, 2.5rem);
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .Members_Container {
+            display: flex;
+            justify-content: space-between;
+            margin: 1vh 2vw;
+        }
     }
 }
 
