@@ -9,7 +9,10 @@ export default function Members({ Member }) {
         <h3 className="MemberTitle_Color">{Member.Name}</h3>
         <p>{Member.Description}</p>
       </main>
-      <a href={Member.Link} className="LightLink_Font">{`Acesse o site do ${Member.Name}`}</a>
+      <a
+        href={Member.Link}
+        className="LightLink_Font"
+      >{`Acesse o site do ${Member.Name}`}</a>
     </aside>
   );
 }

@@ -1,0 +1,30 @@
+@use "../../Variables.scss" as *;
+
+.TopProjects_Container {
+    width: 21%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #130E31;
+    padding: 2vh 1vw;
+    border-radius: 18px;
+
+    h3, p, li {
+        color: $DarkFont-Color;
+        padding: 0;
+    }
+    
+    h3 {
+        margin: 0 0 2vh 0;        
+        font-size: clamp(1.2rem, 1.5vw, 1.6rem);
+        font-weight: 500;
+    }
+
+    .ProjectLink_Container {
+        display: flex; 
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}

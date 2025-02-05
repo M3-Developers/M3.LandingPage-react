@@ -20,6 +20,9 @@
 
     p, a{
         width: fit-content;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 22px;
     }
 
     h3 {
@@ -28,15 +31,6 @@
 
     p {
         color: $White;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 22px;
         margin-bottom: 1.8vw;
-    }
-
-    a {
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 22px;
     }
 }

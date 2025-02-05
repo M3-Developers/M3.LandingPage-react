@@ -1,20 +1,30 @@
 import "../Globals.scss";
 import "../Style/Home.scss";
 import { Yt_Icon, Email_Icon } from "../assets";
-import MembersObject from "../Simutation"; // Arquivo de simulação do BD
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Members from "../components/Member";
+import TopProjects from "../components/TopProjects";
 import { useEffect, useState } from "react";
 
 // Simulação dos membros
+import MembersObject from "../SimBD/MembersBD";
+// Simulação dos Projetos
+import ProjectsObject from "../SimBD/ProjectsBD";
 
 export default function Home() {
   const [members, SetMembers] = useState(null);
+  const [projects, SetProjects] = useState(null);
 
   useEffect(() => {
     setTimeout(() => {
       SetMembers(MembersObject);
+    }, 500);
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      SetProjects(ProjectsObject);
     }, 500);
   }, []);
 
@@ -37,7 +47,7 @@ export default function Home() {
             <p className="DarkLink_Font">M3 Devs</p>
           </a>
         </section>
-        
+
         <h2 className="Members_Title BlueTitle_Color">Membros do M3</h2>
         <section className="Members_Container">
           {members ? (
@@ -45,9 +55,18 @@ export default function Home() {
               <Members key={Key} Member={Value} />
             ))
           ) : (
-            <p>Carregando...</p>
-          )
-        }
+            <p className="Loading_Text">Carregando...</p>
+          )}
+        </section>
+        <h2 className="Project_Title BlueTitle_Color">Principais Projetos:</h2>
+        <section className="Projects_Container">
+          {projects ? (
+            Object.entries(projects).map(([Key, Value]) => (
+              <TopProjects key={Key} Project={Value} />
+            ))
+          ) : (
+            <p className="Loading_Text">Carregando Projetos...</p>
+          )}
         </section>
       </main>
     </div>

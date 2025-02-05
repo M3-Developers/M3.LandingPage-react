@@ -1,9 +1,10 @@
 @use "../Variables.scss" as *;
 
 body {
-    background: url(../assets/images/Teste.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(../assets/images/Teste.png) no-repeat;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
     background-color: $main-Background;
 }
 
@@ -48,8 +49,15 @@ body {
             }
         }
 
+        .Loading_Text {
+            font-size: clamp(1.3rem, 2vw, 1.5rem);
+            line-height: 1.5;
+            text-align: center;
+            font-weight: 400;
+        }
+
         .Members_Title{
-            font-size: clamp(2.3rem, 2vw, 2.5rem);
+            font-size: clamp(2.8rem, 3vw, 3rem);
             line-height: 1.5;
             text-align: center;
         }
@@ -58,6 +66,16 @@ body {
             display: flex;
             justify-content: space-between;
             margin: 1vh 2vw;
+        }
+
+        .Project_Title {
+            font-size: clamp(1.8rem, 2vw, 2.5rem);
+            line-height: 1.5;
+        }
+
+        .Projects_Container {
+            display: flex;
+            gap: 3%;
         }
     }
 }
