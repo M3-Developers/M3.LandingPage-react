@@ -1,0 +1,39 @@
+@use "../../Variables.scss" as *;
+
+.Footer_Container {
+    height: 12vh;
+    background-color: #464968;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 2vw;
+    
+    p {
+        color: $White;
+        font-weight: 400;
+    }
+
+    .Report_Container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .Email_Text{
+            color: $LightAnchor-Color;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+
+    .Suport_Container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        p {
+            font-weight: 500;
+        }
+    }
+}

@@ -8,6 +8,7 @@ body {
     background-color: $main-Background;
 }
 
+
 .Home_Container {
     display: flex;
     flex-direction: column;
@@ -17,12 +18,19 @@ body {
     .Home_Content {
         padding: 7vh 3.2vw;
 
+
+        // Contato
+
+
         .Contacts_Container {
             background-color: $White;
-            border: solid $Black 1px;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
             max-width: 25%;
             margin: 5vh 0;
             padding: 28px 31px;    
+            border: solid $Black 1px;
             border-radius: 30px;
          
             h2 {
@@ -49,6 +57,10 @@ body {
             }
         }
 
+
+        //Membros do M3
+
+
         .Loading_Text {
             font-size: clamp(1.3rem, 2vw, 1.5rem);
             line-height: 1.5;
@@ -68,6 +80,10 @@ body {
             margin: 1vh 2vw;
         }
 
+
+        // Projetos com destaque
+
+
         .Project_Title {
             font-size: clamp(1.8rem, 2vw, 2.5rem);
             line-height: 1.5;
@@ -76,6 +92,11 @@ body {
         .Projects_Container {
             display: flex;
             gap: 3%;
+            padding: 0 1vw;
+        }
+
+        .GotoProjects_anchor {
+            margin-bottom: 0;
         }
     }
 }
