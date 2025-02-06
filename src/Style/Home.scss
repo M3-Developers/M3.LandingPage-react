@@ -1,8 +1,13 @@
 @use "../Variables.scss" as *;
 
 body {
+    background: url(../assets/images/Teste.png) no-repeat;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
     background-color: $main-Background;
 }
+
 
 .Home_Container {
     display: flex;
@@ -13,20 +18,86 @@ body {
     .Home_Content {
         padding: 7vh 3.2vw;
 
-        a {
-            text-decoration: none;
+
+        // Contato
+
+
+        .Contacts_Container {
+            background-color: $White;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            max-width: 25%;
+            margin: 5vh 0;
+            padding: 28px 31px;    
+            border: solid $Black 1px;
+            border-radius: 30px;
+         
+            h2 {
+                font-size: clamp(1.5rem, 2vw, 1.8rem);
+                line-height: 1.5;
+                margin: 0 0 2vh 0;
+            }
+            
+            a {
+                text-decoration: none;
+                width: fit-content;
+            }
+            
+            .Email_Container, .Youtube_Container {
+                display: flex;
+                align-items: center;
+                height: auto;
+                gap: 0.7vw;
+                
+                img {
+                    width: 2vw;
+                    height: auto;
+                }
+            }
         }
 
-        .Email_Container, .Youtube_Container {
-            display: flex;
-            align-items: center;
-            height: auto;
-            gap: 0.7vw;
 
-            img {
-                width: 2vw;
-                height: auto;
-            }
+        //Membros do M3
+
+
+        .Loading_Text {
+            font-size: clamp(1.3rem, 2vw, 1.5rem);
+            line-height: 1.5;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .Members_Title{
+            font-size: clamp(2.8rem, 3vw, 3rem);
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .Members_Container {
+            display: flex;
+            justify-content: space-between;
+            margin: 1vh 2vw;
+        }
+
+
+        // Projetos com destaque
+
+
+        .Project_Title {
+            font-size: clamp(1.8rem, 2vw, 2.5rem);
+            line-height: 1.5;
+        }
+
+        .Projects_Container {
+            display: flex;
+            gap: 3%;
+            padding: 0 1vw;
+        }
+
+        .GotoProjects_anchor {
+            margin-bottom: 0;
         }
     }
 }
+
