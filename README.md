@@ -35,10 +35,10 @@ Destinatário: M3-Devs
 ```bash
 
 # Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/M3-Developers/M3.Landpage-react.git
 
 # Acesse a pasta do projeto
-cd nome-do-projeto
+cd M3.Landpage-react
 
 # Instale as dependências
 npm install
@@ -54,7 +54,7 @@ src/
 ├── assets/           # Imagens, ícones e arquivos estáticos
 ├── components/       # Componentes reutilizáveis
 ├── pages/            # Páginas da aplicação
-└── styles/           # Arquivos de estilo (CSS ou pré-processadores)
+└── styles/           # Arquivos de estilo (SCSS)
 ```
 
 ## Deploy
