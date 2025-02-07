@@ -8,7 +8,7 @@ export default function Header() {
       <nav>
         <a href="">Home</a>
         <a href="">Projetos</a>
-        <a href="">GitHub</a>
+        <a href="https://github.com/M3-Developers">GitHub</a>
       </nav>
     </header>
   );
