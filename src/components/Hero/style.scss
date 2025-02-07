@@ -1,33 +1,59 @@
 @use "../../Variables.scss" as *;
 
 .Hero_Container {
-
     width: auto;
-    padding: 2.5vw;
     display: flex;
-    border-radius: 40px;
-    gap: 2vw;
+    @media (max-width: 1350px) {
+        gap: 1vh;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 17.5px;
+    }
+    @media (min-width: 1350px) {
+        gap: 2vw;
+        flex-direction: row;
+        border-radius: 40px;
+        padding: 35px;
+    }
+    
     
     img {
-        width: 16.2vw;
         height: auto;
         border: solid 2px #37EEAC;
-        border-radius: 30px;
     }
-
+    
     .Description_Container {
-        margin-top: 20px;
         
         h2 {
-            font-size: clamp(1.5rem, 2vw, 1.8rem);
+            font-size: clamp(1.3rem, 2vw, 1.8rem);
             line-height: 1.5;
             margin-bottom: 10px;
         }
         
         p {
             font-size: clamp(0.8rem, 1vw, 1rem);
-            line-height: 1;
+            line-height: 17px;
             margin-bottom: 10px;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        gap: 2vh;
+        flex-direction: column;
+        align-items: center;
+        
+        img {
+            width: 16.6vh;
+            border-radius: 25px;
+        }
+    }
+    @media (min-width: 750px) {
+        gap: 2vw;
+        flex-direction: row;
+        img {
+            width: 15vw;
+            border-radius: 20px;
         }
     }
 }
