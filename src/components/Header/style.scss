@@ -5,10 +5,10 @@
     @media (max-width: 450px) {
         height: 3vh;
     }
-    @media (min-width: 750px) and (max-width: 750px) {
+    @media (min-width: 450px) and (max-width: 1300px) {
         height: 5vh;
     }
-    @media (min-width: 750px) {
+    @media (min-width: 1300px) {
         height: 7vh;
     }
     width: auto;
@@ -22,15 +22,15 @@
     
     img {
         @media (max-width: 450px) {
-            height: 56%;    
+            height: 45%;    
             margin-left: 10px;
         }
-        @media (min-width: 750px) and (max-width: 750px) {
+        @media (min-width: 450px) and (max-width: 1300px) {
+            height: 50%;    
             margin:  20px;
-            height: 56.5%;    
             margin-left: 10px;
         }
-        @media (min-width: 750px) {
+        @media (min-width: 1300px) {
             height: 63%;    
             margin-left: 20px; 
         }
@@ -46,14 +46,17 @@
         @media (max-width: 450px) {
             display: flex;
             gap: 4.5vw;
+            font-size: 0.8rem;
         }
-        @media (min-width: 750px) and (max-width: 750px) {
+        @media (min-width: 450px) and (max-width: 1300px) {
             display: flex;
             gap: 3vw;
+            font-size: 0.9rem;
         }
-        @media (min-width: 750px) {
+        @media (min-width: 1300px) {
             display: flex;
             gap: 1.5vw;
+            font-size: 1.15rem;
         }
         width: auto;
         font-weight: bold;
