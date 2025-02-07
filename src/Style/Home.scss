@@ -27,12 +27,18 @@ body {
             display: flex;
             flex-direction: column;
             gap: 2vh;
-            max-width: 25%;
             margin: 5vh 0;
             padding: 28px 31px;    
             border: solid $Black 1px;
             border-radius: 30px;
-         
+            
+            @media (max-width:850px) {
+                max-width: 75%;
+            }
+            @media (min-width:850px) {
+                max-width: 25%;
+            }
+
             h2 {
                 font-size: clamp(1.5rem, 2vw, 1.8rem);
                 line-height: 1.5;
@@ -51,7 +57,7 @@ body {
                 gap: 0.7vw;
                 
                 img {
-                    width: 2vw;
+                    width: 30px;
                     height: auto;
                 }
             }
