@@ -76,7 +76,7 @@ body {
         }
         
         .Members_Title{
-            font-size: clamp(1.8rem, 3vw, 3rem);
+            font-size: clamp(1.8rem, 3vw, 2.8rem);
             line-height: 1.5;
             text-align: center;
         }
@@ -97,20 +97,21 @@ body {
         
         
         .Project_Title {
-            font-size: clamp(1.8rem, 2vw, 2.5rem);
+            font-size: clamp(1.5rem, 2vw, 2rem);
             line-height: 1.5;
         }
-
+        
         .Projects_Container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             grid-auto-rows: minmax(250px, auto);
             justify-items: center;
             gap: 3%;
             padding: 0 1vw;
         }
-
+        
         .GotoProjects_anchor {
+            font-size: clamp(1.5rem, 2vw, 2rem);
             margin-bottom: 0;
         }
     }

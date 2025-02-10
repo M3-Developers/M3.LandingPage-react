@@ -1,21 +1,21 @@
 @use "../../Variables.scss" as *;
 
 .Member_Container {
-    @media (max-width: 558px) {
-        width: 81vw;
+    @media (max-width: 685px) {
+        width: 90%;
         
         img {
             width: 77vw;
         }
     }
-    @media (min-width: 558px) and (max-width: 873px) {
-        width: 38vw;
+    @media (min-width: 685px) and (max-width: 1052px) {
+        width: 90%;
         
         img {
             width: 32vw;
         }
     }
-    @media (min-width: 873px) {
+    @media (min-width: 1052px) {
         width: 19.9vw;
         
         img {
