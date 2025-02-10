@@ -1,7 +1,8 @@
 @use "../../Variables.scss" as *;
 
 .TopProjects_Container {
-    width: 21%;
+    width: 100%;
+    max-width: 355px;
     height: 40vh;
     display: flex;
     flex-direction: column;
