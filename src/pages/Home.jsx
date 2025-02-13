@@ -30,7 +30,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="Home_Container">
+    <section className="Home_Container">
       <Header />
       <main className="Home_Content">
         {/* Hero de apresentação */}
@@ -89,6 +89,6 @@ export default function Home() {
         </h2>
       </main>
       <Footer />
-    </div>
+    </section>
   );
 }

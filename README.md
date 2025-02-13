@@ -31,8 +31,8 @@ Project Stakeholder: M3-Devs
 - Package Manager (npm/yarn).
 
 ## Installation and execution steps
-```bash
 
+```bash
 # Clone this repository
 git clone https://github.com/M3-Developers/M3.LandingPage-react.git
 
