@@ -82,7 +82,7 @@ export default function Home() {
 
         <h2 className="BlueTitle_Color GotoProjects_anchor">
           Veja os nossos projetos{" "}
-          <a href="" className="DarkLink_Font">
+          <a href="/Projects" className="DarkLink_Font">
             aqui
           </a>
           .
