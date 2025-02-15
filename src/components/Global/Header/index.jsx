@@ -1,5 +1,5 @@
 import "./style.scss";
-import { Logo } from "../../assets/index";
+import { Logo } from "../../../assets/index";
 
 export default function Header() {
   return (

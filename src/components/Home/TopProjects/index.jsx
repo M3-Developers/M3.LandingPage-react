@@ -1,5 +1,5 @@
 import "./style.scss";
-import "../../Globals.scss";
+import "../../../Globals.scss";
 import { useState, useEffect } from "react";
 
 export default function TopProjects({ Project }) {
