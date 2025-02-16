@@ -101,11 +101,12 @@ body {
             line-height: 1.5;
         }
         
-        .Projects_Container {
+        .HomeProjects_Container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             grid-auto-rows: minmax(250px, auto);
             justify-items: center;
+            justify-content: space-between;
             gap: 3%;
             padding: 0 1vw;
         }
