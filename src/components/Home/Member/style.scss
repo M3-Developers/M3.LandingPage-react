@@ -1,0 +1,70 @@
+@use "../../../Variables.scss" as *;
+
+.Member_Container {
+    @media (max-width: 685px) {
+        width: 90%;
+        
+        img {
+            width: 77vw;
+        }
+    }
+    @media (min-width: 685px) and (max-width: 1052px) {
+        width: 90%;
+        
+        img {
+            width: 32vw;
+        }
+    }
+    @media (min-width: 1052px) {
+        width: 19.9vw;
+        
+        img {
+            width: 19.8vw;
+        }
+    }
+
+    min-height: 78.1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.8vh 2vw 4.4vh;
+    background-color: $Member-Background;
+    border: solid $Black 2px;
+    border-radius: 30px;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8vw;
+        align-items: center;
+    }
+
+    img {
+        height: auto;
+        border: solid $Image-Border 2px;
+        border-radius: 15px;
+    }
+
+    p, a{
+        width: fit-content;
+        font-weight: 400;
+        line-height: 22px;
+        @media (max-width: 1441px) {
+            font-size: clamp(0.8rem, 2vw, 1.1rem);
+        }
+        @media (min-width: 1441px) {
+            font-size: clamp(0.8rem, 3vw, 1.4rem);
+        }
+    }
+
+    h3 {
+        text-align: center;
+        font-size: clamp(1.5rem, 2vw, 1.8rem);
+    }
+
+    p {
+        width: 100%;
+        color: $White;
+        margin-bottom: 1.8vw;
+    }
+}

@@ -1,0 +1,19 @@
+@use "../Variables.scss" as *;
+
+.Projects_Container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Product_Content {
+    min-height: 58vh;
+    padding: 5vh 3.2vw;
+
+    .Projects_Title {
+        margin: 0 0 5vh 0;
+        text-align: center;
+        font-size: clamp(1.4rem, 3vw, 2.4rem);
+    }
+}

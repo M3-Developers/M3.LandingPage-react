@@ -1,17 +1,17 @@
 import "../Globals.scss";
 import "../Style/Home.scss";
 import { Yt_Icon, Email_Icon } from "../assets";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Members from "../components/Member";
-import TopProjects from "../components/TopProjects";
-import Footer from "../components/Footer";
+import Header from "../components/Global/Header";
+import Hero from "../components/Home/Hero";
+import Members from "../components/Home/Member";
+import TopProjects from "../components/Home/TopProjects";
+import Footer from "../components/Global/Footer";
 import { useEffect, useState } from "react";
 
-// Simulação dos membros
+// Simulação BD dos membros
 import MembersObject from "../SimBD/MembersBD";
-// Simulação dos Projetos
-import ProjectsObject from "../SimBD/ProjectsBD";
+// Simulação BD dos Projetos
+import TopProjectsObject from "../SimBD/TopProjectsBD";
 
 export default function Home() {
   const [members, SetMembers] = useState(null);
@@ -25,12 +25,12 @@ export default function Home() {
 
   useEffect(() => {
     setTimeout(() => {
-      SetProjects(ProjectsObject);
+      SetProjects(TopProjectsObject);
     }, 500);
   }, []);
 
   return (
-    <div className="Home_Container">
+    <section className="Home_Container">
       <Header />
       <main className="Home_Content">
         {/* Hero de apresentação */}
@@ -70,7 +70,7 @@ export default function Home() {
         {/* Projetos com destaque */}
 
         <h2 className="Project_Title BlueTitle_Color">Principais Projetos:</h2>
-        <section className="Projects_Container">
+        <section className="HomeProjects_Container">
           {projects ? (
             Object.entries(projects).map(([Key, Value]) => (
               <TopProjects key={Key} Project={Value} />
@@ -82,13 +82,13 @@ export default function Home() {
 
         <h2 className="BlueTitle_Color GotoProjects_anchor">
           Veja os nossos projetos{" "}
-          <a href="" className="DarkLink_Font">
+          <a href="/Projects" className="DarkLink_Font">
             aqui
           </a>
           .
         </h2>
       </main>
       <Footer />
-    </div>
+    </section>
   );
 }

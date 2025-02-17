@@ -1,6 +1,5 @@
 import "./style.scss";
-import "../../Globals.scss";
-import { useState, useEffect } from "react";
+import "../../../Globals.scss";
 
 export default function TopProjects({ Project }) {
   const Website = Project.WebsiteLink;

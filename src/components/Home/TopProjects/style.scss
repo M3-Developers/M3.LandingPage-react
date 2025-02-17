@@ -1,15 +1,25 @@
-@use "../../Variables.scss" as *;
+@use "../../../Variables.scss" as *;
 
 .TopProjects_Container {
-    width: 21%;
+    width: 100%;
+    max-width: 355px;
     height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #130E31;
-    padding: 2vh 1vw;
+    @media (max-width: 676px) {
+        padding: 2vh 4vw;
+    }
+    padding: 2vh 1.5vw;
     border-radius: 18px;
 
+    .ProjectIntegrants_Container {
+        @media (max-width: 676px) {
+            padding: 0 2vw;
+        }
+    }
+    
     ul {
         margin: 1vh 1.7vw;
     }

@@ -1,84 +1,82 @@
-# Landpage - M3
+# Landing Page - M3
 
-Status do projeto: <span style="color: rgb(255, 230, 0)">Em desenvolvimento</span>
+Project status: <span style="color: rgb(255, 230, 0)">Under Development</span>
 
-## Descrição
+## Description
 
-Este projeto foi desenvolvido para atender a necessidade de divulgação, por meio de uma landpage, do grupo M3 Devs, de seus membros e de seus projetos. <br/>
-Esta landpage tem como o seu objetivo facilitar o acesso e a divulgação dos projetos desenvolvidos pelos membros do grupo e pelo grupo em sí.
+This project was developed to meet the promotion needs, using a landing page for it, for M3 Devs Group, and its members and their projects. <br />
+This project has the main objective of making it easier to disseminate and access the projects that were developed by the   group members.
 
-Destinatário: M3-Devs
+Project Stakeholder: M3-Devs
 
-<!-- Link para a landpage:  -->
+<!-- Landing page Link -->
 
-## Tecnologias utilizadas
+## Used Technologies
 
 - React 18
 - Scss
 - React Router
-- Firebase (inicialmente)
+- Firebase (initially)
 
-## Funcionalidades
+## Functionality
 
-- Design Responsivo
-- Formularios para reportar problemas
-- Interface agradavel
+- Responsive Design
+- Reporting Forms
+- User-friendly interface
 
-## Requisitos de intalação
+## Installation requirements
 
 - Node.js
-- Compilador de Scss
-- Gerenciador de pacotes (npm/yarn).
+- Scss Compiler
+- Package Manager (npm/yarn).
 
-## Passos para Instalação e Execução
+## Installation and execution steps
 
 ```bash
+# Clone this repository
+git clone https://github.com/M3-Developers/M3.LandingPage-react.git
 
-# Clone este repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+# Access the project files 
+cd M3.LandingPage-react
 
-# Acesse a pasta do projeto
-cd nome-do-projeto
-
-# Instale as dependências
+# Install the dependencies
 npm install
 
-# Inicie a aplicação
+# Start the software
 npm start
 ```
 
-## Estrutura das pastas
+## Files Structure
 
 ```plaintext
-src/
-├── assets/           # Imagens, ícones e arquivos estáticos
-├── components/       # Componentes reutilizáveis
-├── pages/            # Páginas da aplicação
-└── styles/           # Arquivos de estilo (CSS ou pré-processadores)
+├── assets/           # Images, icons and static files
+├── components/       # Reusable components
+├── pages/            # Application pages
+└── styles/           # Style files (SCSS)
 ```
 
 ## Deploy
 
-Inicialmente a landpage será hospedada no site Netlify, porém futuramente poderá ser movida para outra plataforma
+initially, the landing page will be hosted on the website Netlify, but it may be moved to another platform in the future.
 
-## Contribuição
+## Ways to crontribute
 
-Você pode contribuir das seguintes maneiras:
-- **Reportando Bugs:** utilize este [formulário]() ou nos notifique pelo email **devs.m3group@gmail.com**, todos os erros reportados serão avaliados e priorizados em proximas atualizações;
+You can contribute for the following way:
 
-- **Propondo melhorias** sugira melhorias através do email citado acima;
+- **Reporting Bugs:** use this [Form]() or tell us via email **devs.m3group@gmail.com**, all the errors will be analyzed and prioritized on the next updates;
 
-- **Compartilhando a sua experiência:** Nos informe como foi a sua experiência através deste [formulário](), a sua opinião é de suma inportância para nós
+- **Proposing enhancements:** propose enhancements using the email quoted above;
 
+- **Sharing your experience:** Let us know about your experience, using this [Form](), your opinion is of paramount importance to us.
 
-## Maneiras de contato
+## Contact Methods:
 
 - **Email:** devs.m3group@gmail.com;
 - **Github:** https://github.com/M3-Developers
 
-## Colaboradores
+## Collaborators
 
-Este projeto foi desenvolvido com o apoio de:
+This project was developed by:
 
 [Lucas Machado](https://github.com/Dev-Machado05) - Designer / Dev. Frontend <br/>
 [Marcos Vinicius](https://github.com/MarcosAmorim-dev) - UX/UI Reviewer<br/> 

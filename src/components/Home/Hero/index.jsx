@@ -1,7 +1,7 @@
 import "./style.scss";
-import "../../Globals.scss"
+import "../../../Globals.scss";
 
-import { HeroImage } from "../../assets";
+import { HeroImage } from "../../../assets";
 
 export default function Hero() {
     return(

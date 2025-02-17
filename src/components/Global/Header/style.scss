@@ -1,0 +1,68 @@
+@use "../../../Variables.scss" as *;
+
+.Header_Container {
+    background-color: $Header-Background;
+    @media (max-width: 450px) {
+        height: 3vh;
+    }
+    @media (min-width: 450px) and (max-width: 1300px) {
+        height: 5vh;
+    }
+    @media (min-width: 1300px) {
+        height: 7vh;
+    }
+    width: auto;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    z-index: 5;
+    
+    img {
+        @media (max-width: 450px) {
+            height: 45%;    
+            margin-left: 10px;
+        }
+        @media (min-width: 450px) and (max-width: 1300px) {
+            height: 50%;    
+            margin:  20px;
+            margin-left: 10px;
+        }
+        @media (min-width: 1300px) {
+            height: 63%;    
+            margin-left: 20px; 
+        }
+        width: auto;
+        object-fit: contain;    
+        position: absolute;
+        top: 3;
+        left: 0;
+        z-index: 10;
+    }
+    
+    nav {
+        @media (max-width: 450px) {
+            display: flex;
+            gap: 4.5vw;
+            font-size: 0.8rem;
+        }
+        @media (min-width: 450px) and (max-width: 1300px) {
+            display: flex;
+            gap: 3vw;
+            font-size: 0.9rem;
+        }
+        @media (min-width: 1300px) {
+            display: flex;
+            gap: 1.5vw;
+            font-size: 1.15rem;
+        }
+        width: auto;
+        font-weight: bold;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

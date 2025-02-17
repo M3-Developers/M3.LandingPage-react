@@ -1,5 +1,5 @@
 import "./style.scss";
-import "../../Globals.scss";
+import "../../../Globals.scss";
 
 export default function Members({ Member }) {
   return (
