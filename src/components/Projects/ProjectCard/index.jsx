@@ -18,7 +18,7 @@ export default function ProjectCard({ ProjectObject }) {
     Orange_Color 
     Default_Background
     "
-    onClick={ToggleDisplay}
+      onClick={ToggleDisplay}
     >
       <h1>{ProjectObject.Name}</h1>
       {DisplayInfo ? (
@@ -31,17 +31,21 @@ export default function ProjectCard({ ProjectObject }) {
             ))}
           </ul>
           <section className="Link_Container">
-            <p>Repositório: </p>
-            <a href="RepositoryLink" className="LightLink_Font">
-              {RepositoryLink}
-            </a>
+            <p>
+              Repositório:{" "}
+              <a href="RepositoryLink" className="LightLink_Font">
+                {RepositoryLink}
+              </a>
+            </p>
           </section>
           {WebsiteInfo.Available ? (
             <section className="Link_Container">
-              <p>Website: </p>
-              <a href={WebsiteInfo.Link} className="LightLink_Font">
-                {WebsiteInfo.Link}
-              </a>
+              <p>
+                Website: {" "}
+                <a href={WebsiteInfo.Link} className="LightLink_Font">
+                  {WebsiteInfo.Link}
+                </a>
+              </p>
             </section>
           ) : null}
         </main>
