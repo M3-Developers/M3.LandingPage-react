@@ -1,0 +1,49 @@
+@use "../Variables.scss" as *;
+
+$Desktop_Width: 1024px;
+
+.Error_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+
+    .Error_Content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            color: $ErrorFont-Color;
+            font-size: 2.7em;
+
+            @media only screen and (max-width: $Desktop_Width) {                
+               font-size: 1.7em; 
+            }
+        }
+        
+        h2{
+            @extend h1;
+            color: $BlueFont-Color;
+        }
+        
+        .ErrorDescription_Container {
+            margin-top: 3vh;  
+            max-width: 80%;
+            padding: 2vh 13vw;
+            background-color: $Default_Background;
+            border-radius: 20px;
+            line-height: 3.5vh;
+            font-size: 1em;
+            font-weight: 500;
+            color: $DarkFont-Color;
+
+            @media only screen and (max-width: $Desktop_Width) {                
+                padding: 1vh 6vw;
+               font-size: 0.9em; 
+            }
+        }
+    }
+}
