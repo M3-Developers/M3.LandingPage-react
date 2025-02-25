@@ -3,7 +3,7 @@
     margin: 25px 0;
     border-radius: 10px;
     cursor: pointer;
-
+    
     h1 {
         font-size: 1.6rem;
         margin: 0;
@@ -12,13 +12,17 @@
     .ProjectCard_Content {
         padding-top: 40px;
         line-height: 25px;
-
+        
         .ProjectCard_Description {
             margin-bottom: 30px;
         }
         
         ul {
             padding: 9px 25px;
+        }
+
+        .Link_Container {
+            display: flex;
         }
     }
 }

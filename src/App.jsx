@@ -5,6 +5,7 @@ import './App.css';
 
 import Home from "./pages/Home"
 import Projects from "./pages/Projects";
+import Error from './pages/Error';
 
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡶⢶⣾⠻⣦⡀⠀⠀⠀⠀⠀
 //⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠋⠀⠀⠙⢶⡾⠃⠀⠀⠀⠀⠀
@@ -28,10 +29,10 @@ const router = createBrowserRouter([
     path: "/Projects",
     element: <Projects/>,
   },
-  // {
-  //   path: "*",
-  //   element: <Error />
-  // },
+  {
+    path: "*",
+    element: <Error />
+  },
 ]);
 
 export default function App() {

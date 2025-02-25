@@ -1,32 +1,32 @@
 @use "../../../Variables.scss" as *;
 
 .TopProjects_Container {
+    
     width: 100%;
+    min-width: 256px;
     max-width: 355px;
     height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #130E31;
+    border-radius: 18px;
+    
+    // Ajuste padding responsivo
+
+    padding: 2vh 1.5vw;
     @media (max-width: 676px) {
         padding: 2vh 4vw;
     }
-    padding: 2vh 1.5vw;
-    border-radius: 18px;
 
-    .ProjectIntegrants_Container {
-        @media (max-width: 676px) {
-            padding: 0 2vw;
-        }
-    }
-    
     ul {
         margin: 1vh 1.7vw;
     }
-
+    
     h3, p, li {
         color: $DarkFont-Color;
         padding: 0;
+        width: auto;
     }
     
     h3 {
@@ -34,11 +34,41 @@
         font-size: clamp(1.2rem, 1.5vw, 1.6rem);
         font-weight: 500;
     }
-
+    
     .ProjectLink_Container {
         display: flex; 
         flex-direction: column;
         gap: 5px;
     }
+    
 
+    // Conjunto de ajustes de responsividade p/ container
+
+    @media (max-width: 676px) {
+        .ProjectIntegrants_Container {
+            padding: 0 2vw;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        width: 50%;
+        
+        h3 {
+            font-size: 1.1em;
+        }
+
+        ul, li, a {
+            font-size: 0.8rem;
+        }
+
+    }
 }
+
+
+
+@media (min-width: 1240px) and (max-width: 1704px) {
+    .Project4 {
+        display: none;
+    }
+}
+

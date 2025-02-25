@@ -1,11 +1,11 @@
 import "./style.scss";
 import "../../../Globals.scss";
 
-export default function TopProjects({ Project }) {
+export default function TopProjects({ Project, ObjectName }) {
   const Website = Project.WebsiteLink;
 
   return (
-    <section className="TopProjects_Container">
+    <section className={`TopProjects_Container ${ObjectName}`}>
       <h3 className="">{Project.Name}</h3>
       <p className="">{Project.Description}</p>
       <section className="ProjectIntegrants_Container">

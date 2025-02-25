@@ -72,8 +72,8 @@ export default function Home() {
         <h2 className="Project_Title BlueTitle_Color">Principais Projetos:</h2>
         <section className="HomeProjects_Container">
           {projects ? (
-            Object.entries(projects).map(([Key, Value]) => (
-              <TopProjects key={Key} Project={Value} />
+            Object.entries(projects).map(([key, Value]) => (
+              <TopProjects key={key} Project={Value} ObjectName={key}/>
             ))
           ) : (
             <p className="Loading_Text">Carregando Projetos...</p>
